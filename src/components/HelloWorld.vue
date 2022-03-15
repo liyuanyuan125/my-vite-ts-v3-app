@@ -20,13 +20,17 @@
 
   <div v-else>暂无数据</div>
   <div>
-    <p>hooks component</p>
-    <HooksTodo />
+    <!-- todolist -->
+     <!-- <HooksTodo /> -->
+
+    <!-- 九宫格组件数据 -->
+    <HooksFlex />
   </div>
+
 </template>
 <script lang="ts" setup>
-// 引入hooks todolist 组件
 import HooksTodo from '../hooks/TodoItem/index.vue'
+import HooksFlex from '../hooks/Flex/index.vue'
 import { ref, computed } from 'vue';
 
 interface TodoItem {
