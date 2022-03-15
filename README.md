@@ -1,4 +1,5 @@
 # 涉及到的知识点
+```
 Vue3、Vite、TypeScript、ESlint、Stylelint、Vue-router、Axios、Pinia
 第一部分为开发环境及脚手架基本能力的搭建：
 
@@ -15,11 +16,15 @@ Vue3、Vite、TypeScript、ESlint、Stylelint、Vue-router、Axios、Pinia
 接入 UI 库
 接入 Pinia
 接入 Echarts5
+```
 ## git actions 
+```
 参考地址：https://juejin.cn/post/7069315908597973023 // vue3 + vite2+ ts4 框架全过程
 参考地址：https://mp.weixin.qq.com/s/WO2n-HhOam_o07nDy0ruEA // git actions 
 参考地址：https://juejin.cn/post/6898630134530752520 // cookie、session、token、jwt、单点登录
+```
 ## 涉及到功能todoList模块
+```
 Vue3:
   script setup
   ref
@@ -37,3 +42,4 @@ TS:
   删除待办事项
   全选和取消全选功能
   清理已做事项
+```
